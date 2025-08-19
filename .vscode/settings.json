@@ -1,0 +1,13 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.ignorePaths": [
+        "**",
+        "!README.md"
+    ],
+    "cSpell.language": "pt-BR",
+    "cSpell.words": [
+        "Gerber",
+        "julialabs",
+        "Julialabs"
+    ]
+}
