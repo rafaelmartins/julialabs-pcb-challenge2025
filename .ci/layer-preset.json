@@ -1,10 +1,6 @@
 {
   "colors": [
     {
-      "color": "rgb(194, 194, 194)",
-      "layer": ""
-    },
-    {
       "color": "rgb(102, 102, 128)",
       "layer": "background_bottom"
     },
@@ -33,11 +29,11 @@
       "layer": "silkscreen_top"
     },
     {
-      "color": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
       "layer": "soldermask_bottom"
     },
     {
-      "color": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
       "layer": "soldermask_top"
     },
     {
@@ -73,12 +69,12 @@
     "soldermask_bottom",
     "soldermask_top",
     "solderpaste",
-    "adhesive",
     "th_models",
     "smd_models",
     "virtual_models",
     "non_pos_file_models",
-    "dnp_models"
+    "dnp_models",
+    "3d_axes"
   ],
   "name": "ci"
 }
