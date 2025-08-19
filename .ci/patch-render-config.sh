@@ -24,6 +24,7 @@ cp -v ~/.config/kicad/9.0/3d_viewer.json{,.bkp}
 cp -v ~/.config/kicad/9.0/3d_viewer.json /tmp/3d_viewer.json
 
 jq \
-    '.render.show_footprints_dnp = true | .render.show_comments = false | .render.show_drawings = false' \
+    '.layer_presets += [input] | .render.show_footprints_dnp = true | .render.show_comments = false | .render.show_drawings = false' \
     /tmp/3d_viewer.json \
+    "${SCRIPT_DIR}/layer-preset.json"
     > ~/.config/kicad/9.0/3d_viewer.json
