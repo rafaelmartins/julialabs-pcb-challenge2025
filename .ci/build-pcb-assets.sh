@@ -39,6 +39,7 @@ function render() {
 
     kicad-cli \
         pcb render \
+            --preset ci \
             --output "${OUTPUT_DIR}/${NAME}-${1}.png" \
             --background opaque \
             --zoom "${PCB_RENDER_ZOOM}" \
