@@ -4,7 +4,7 @@ Meu projeto do Julialabs PCB Challenge 2025.
 
 Placa de circuito impresso baseada no formato de um cartão de visitas tradicional, implementando um sintetizador digital polifônico completo, com mini teclado e alto falante embutidos e saída de audio em linha para gravações.
 
-> [!INFO]
+> [!NOTE]
 > **Recursos Externos**
 >
 > - [Apresentação](https://rafaelmartins.com/s/julialabs-pcb-challenge-2025/)
